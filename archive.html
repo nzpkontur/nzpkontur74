@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архив - Нязепетровский Контур</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    
+    <main class="main">
+        <section class="archive">
+            <div class="container">
+                <h1>Архив передач</h1>
+                
+                <div class="archive-controls">
+                    <div class="search-box">
+                        <input type="text" placeholder="Поиск в архиве...">
+                        <button class="search-btn"></button>
+                    </div>
+                    <select id="archive-category">
+                        <option value="all">Все категории</option>
+                        <option value="news">Новости</option>
+                        <option value="shows">Передачи</option>
+                    </select>
+                </div>
+                
+                <div class="archive-grid">
+                    <div class="archive-item">
+                        <div class="archive-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Запись">
+                            <div class="play-btn"></div>
+                        </div>
+                        <div class="archive-info">
+                            <h3>Выпуск новостей от 15.06.2024</h3>
+                            <p class="archive-date">15 июня 2024</p>
+                            <p class="archive-desc">Главные события дня: открытие нового парка, интервью с мэром</p>
+                            <button class="watch-btn">Смотреть</button>
+                        </div>
+                    </div>
+                    <!-- Другие записи архива -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал -->
+    
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

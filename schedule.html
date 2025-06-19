@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание - Нязепетровский Контур</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка такая же, как на главной -->
+    
+    <main class="main">
+        <section class="schedule">
+            <div class="container">
+                <h1>Расписание передач</h1>
+                
+                <div class="schedule-filter">
+                    <select id="day-selector">
+                        <option value="today">Сегодня</option>
+                        <option value="tomorrow">Завтра</option>
+                        <!-- Другие дни -->
+                    </select>
+                </div>
+                
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Время</th>
+                            <th>Программа</th>
+                            <th>Описание</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>06:00 - 06:30</td>
+                            <td>Утро с Нязепетровском</td>
+                            <td>Утренняя информационная программа</td>
+                        </tr>
+                        <!-- Другие строки расписания -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал такой же, как на главной -->
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

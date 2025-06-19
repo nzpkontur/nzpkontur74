@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель - Нязепетровский Контур</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="admin-sidebar">
+            <div class="admin-logo">
+                <img src="../images/logo-header.png" alt="Нязепетровский Контур">
+            </div>
+            <nav class="admin-nav">
+                <ul>
+                    <li class="active"><a href="#">Главная</a></li>
+                    <li><a href="#">Управление контентом</a></li>
+                    <li><a href="#">Расписание</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Медиабиблиотека</a></li>
+                    <li><a href="#">Пользователи</a></li>
+                    <li><a href="#">Настройки</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="admin-main">
+            <header class="admin-header">
+                <div class="admin-user">
+                    <span>Администратор</span>
+                    <button class="logout-btn">Выйти</button>
+                </div>
+            </header>
+            
+            <section class="admin-content">
+                <h1>Панель управления</h1>
+                
+                <div class="admin-stats">
+                    <div class="stat-card">
+                        <h3>Новости</h3>
+                        <p>24</p>
+                    </div>
+                    <!-- Другие карточки статистики -->
+                </div>
+                
+                <div class="admin-actions">
+                    <button class="action-btn add-news">Добавить новость</button>
+                    <button class="action-btn add-schedule">Редактировать расписание</button>
+                    <button class="action-btn upload-media">Загрузить медиа</button>
+                </div>
+                
+                <div class="recent-comments">
+                    <h2>Последние комментарии</h2>
+                    <!-- Список комментариев -->
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="../js/admin.js"></script>
+</body>
+</html>

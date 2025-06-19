@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход - Нязепетровский Контур</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    
+    <main class="main">
+        <section class="auth">
+            <div class="container">
+                <div class="auth-tabs">
+                    <button class="tab-btn active" data-tab="login">Вход</button>
+                    <button class="tab-btn" data-tab="register">Регистрация</button>
+                </div>
+                
+                <div class="auth-content">
+                    <div class="auth-form active" id="login-form">
+                        <h2>Вход в личный кабинет</h2>
+                        <form id="login">
+                            <div class="form-group">
+                                <label for="login-email">Email</label>
+                                <input type="email" id="login-email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="login-password">Пароль</label>
+                                <input type="password" id="login-password" required>
+                            </div>
+                            <button type="submit" class="auth-btn">Войти</button>
+                            <a href="#" class="forgot-password">Забыли пароль?</a>
+                        </form>
+                    </div>
+                    
+                    <div class="auth-form" id="register-form">
+                        <h2>Регистрация</h2>
+                        <form id="register">
+                            <div class="form-group">
+                                <label for="reg-name">Имя</label>
+                                <input type="text" id="reg-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-email">Email</label>
+                                <input type="email" id="reg-email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-password">Пароль</label>
+                                <input type="password" id="reg-password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-confirm">Подтверждение пароля</label>
+                                <input type="password" id="reg-confirm" required>
+                            </div>
+                            <button type="submit" class="auth-btn">Зарегистрироваться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал -->
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
